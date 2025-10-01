@@ -16,10 +16,10 @@ rustPlatform.buildRustPackage rec {
     owner = "talwat";
     repo = "lowfi";
     tag = version;
-    hash = "sha256-t3Lbqrcmh0XSOO+hc4UsWhKi4zToORFQo0A4G32aeOw=";
+    hash = "sha256-ZHoVT9QzBkCdYnv4r3NpRcW9SVJSBZmSQHiPUwe3bD0=";
   };
 
-  cargoHash = "sha256-waQcxdVXZZ09wuLWUNL4nRUHF1rIDI8lAfYc/1bxMl0=";
+  cargoHash = "sha256-vInuM96TJuewhFafDkhOiZiyxwc6SeBsSH8Fs8YIRRs=";
 
   buildFeatures = lib.optionals stdenv.hostPlatform.isLinux [ "mpris" ];
 
